@@ -1,0 +1,131 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: black;
+    margin: 0px;
+    color: black;
+}
+
+.cabecalho {
+    background-image: url("/img/VALORANT_2022_E5-3_PlayVALORANT_RiotBarProductCard_1920x1080_MB01.jpg");
+    background-size: auto;
+    height: 500px;
+    border-top: 10px solid black;
+}
+
+.navegacao {
+    text-align: right;
+    margin-top: 0px;
+    border: 10px solid transparent;
+    background-color: rgba(0, 0, 0, .8);
+}
+
+.navegacao li {
+    color: white;
+    display: inline-block;
+    margin-left: 10px;
+    list-style: none;
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.navegacao a {
+    border: 1px solid rgb(142, 170, 221);
+    background: rgba(0, 0, 0, 0.5);
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+
+.navegacao a:hover {
+    background: rgb(133, 132, 132);
+}
+
+.navegacao-content {
+    clear: both;
+    text-align: center;
+    margin-top: 150px;
+}
+
+#pvp {
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.396);
+}
+
+#playfree {
+    width: 150px;
+    height: 5px;
+    display: inline-block;
+    margin-left: 500px;
+    margin-top: 50px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+    background-color: rgb(255, 0, 0);
+    padding: 25px;
+    border-bottom: 8px solid black;
+}
+
+svg {
+    clear: both;
+    height: 80px;
+}
+
+.content-section {
+    padding: 50px;
+    overflow: auto;
+    clear: both;
+}
+
+.card {
+    width: 32%;
+    float: left;
+}
+
+.card-1,
+.card-2 {
+    margin-right: 2%;
+}
+
+.card p {
+    background-color: rgba(31, 31, 31, 0.8);
+    color: rgb(255, 255, 255);
+    margin: 0px;
+    padding: 10px;
+}
+
+.card img {
+    background-position: center right;
+    width: 100%;
+    display: block;
+}
+
+#raze {
+    width: 500px;
+    float: left;
+}
+
+.jogabilidade {
+    float: right;
+    color: white;
+}
+
+.jogabilidade h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+    padding: 25px;
+    border-bottom: 8px solid black;
+    text-align: center;
+    border: 1px solid red;
+    color: rgb(200, 53, 53);
+    background-color: rgb(15, 10, 44);
+    margin-top: 55px;
+}
+
+.jogabilidade p {
+    text-align: left;
+    text-indent: 1.5;
+}
